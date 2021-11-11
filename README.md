@@ -3,9 +3,9 @@
 - Para executar os testes: dentro da pasta ./app, execute o comando vendor/bin/phpunit
 - Url configurada para o docker: 0.0.0.0:9001
 
-# SevenChallenge
+## Description
 
-Pretende-se explorar as tuas habilidades de POO em PHP criando 3 classes.
+### Pretende-se explorar as tuas habilidades de POO em PHP criando 3 classes.
 Shape, Rectangle e Circle.
 (Nota: este exercício é destinado para qualquer nível de conhecimento, por isso, certifica-te que
 provas o teu)
@@ -26,7 +26,7 @@ liberdade a forma de o fazeres).
 a. Nota: Tens a liberdade de retornar este objeto da forma que aches mais
 adequada ao problema.
 
-O Rectangle deverá herdar do Shape e os requisitos são os seguintes:
+### O Rectangle deverá herdar do Shape e os requisitos são os seguintes:
 1. Uma constante que define o seu tipo com o valor 2.
 (Nota: se usares a herança devidamente não deverá requerer nenhum método nem
 parâmetro).
@@ -38,3 +38,28 @@ objeto. (Deverás chamar o construtor da herança devidamente).
 4. Um método público que calcula e retorna a área do Círculo.
 5. Deverá ter a mesma habilidade que foi definida no Shape, e retornar um outro objeto
 com as devidas propriedades (name, radius, id).
+
+### Como desenvolver e entregar o exercício:
+1. Cria um repositório no github, por exemplo
+2. Cria a branch: dev
+3. Desenvolve na branch dev
+4. No final, o exercício deverá estar disponível no master
+5. Não te esqueças de documentar o exercício, no ficheiro README.
+
+## Diferenciais:
+1. Tens liberdade para adicionar novas funcionalidades ou implementar da forma que
+achares mais correta (desde que devidamente justificado), de forma a mostrares e
+valorizar as tuas habilidades.
+2. Tens liberdade para usar as novas versões do PHP e tipar as propriedades e
+métodos que aches necessário.
+Bónus:
+As tarefas bónus são opcionais, mas podem dar pontos no processo de seleção:
+● Elabora uma classe de testes unitários para validar o cálculo das áreas para as
+demais formas apresentadas.
+● Elabora a aplicação dentro de um container Docker, documentando todas as ações
+necessárias para testar o exercício dentro do mesmo.
+● Imagina agora que cada classe herdada do Shape pretende ter a sua forma própria
+de gerar um id, (exemplo: uuid, unix timestamp, etc) onde este pode variar de
+acordo com os requisitos de quem vai instanciar uma nova classe. Elabora uma
+solução para este problema, tens liberdade total para optar pela solução que
+consideres mais elegante.
