@@ -3,7 +3,7 @@
 - Para executar os testes: dentro da pasta ./app, execute o comando vendor/bin/phpunit
 - Url configurada para o docker: 0.0.0.0:9001
 
-## Description
+## Descrição do Challenge
 
 ### Pretende-se explorar as tuas habilidades de POO em PHP criando 3 classes.
 Shape, Rectangle e Circle.
@@ -46,7 +46,7 @@ com as devidas propriedades (name, radius, id).
 4. No final, o exercício deverá estar disponível no master
 5. Não te esqueças de documentar o exercício, no ficheiro README.
 
-## Diferenciais:
+### Diferenciais:
 1. Tens liberdade para adicionar novas funcionalidades ou implementar da forma que
 achares mais correta (desde que devidamente justificado), de forma a mostrares e
 valorizar as tuas habilidades.
